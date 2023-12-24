@@ -1,0 +1,33 @@
+.header {
+    font-size: 1.875rem; /* Equivalent to text-3xl */
+    font-weight: bold; /* Equivalent to font-bold */
+}
+
+@media (min-width: 768px) {
+    .header {
+        font-size: 2.25rem; /* Equivalent to md:text-4xl */
+    }
+}
+
+
+.stats-and-input-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    max-width: 72rem;
+    padding-top: 4rem;
+    margin: 0 auto;
+}
+
+.current-stats {
+    max-width: 100%;
+    width: 700px;
+    height: 900px;
+    align-items: stretch;
+}
+
+
+.ctatsheader {
+    font-size: 1.5rem;
+    font-weight: bold;
+}

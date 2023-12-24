@@ -1,0 +1,37 @@
+.workout-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: gray;
+    padding: 20px;
+    border: 3px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    z-index: 999;
+
+
+  }
+  
+  .workout-popup h2 {
+    margin: 0;
+  }
+  
+  .workout-popup input {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+  }
+  
+  .workout-popup button {
+    padding: 8px 16px;
+    margin: 8px;
+  }
+
+  .workout-popup.active {
+    opacity: 1;
+    transform: scale(1);
+    visibility: visible;
+    transition-delay: 0s;
+  }
+  
+  
